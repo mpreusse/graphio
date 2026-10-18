@@ -35,11 +35,6 @@ Repository = "https://github.com/kaiserpreusse/graphio"
 Issues = "https://github.com/kaiserpreusse/graphio/issues"
 
 [project.optional-dependencies]
-# Experimental: bulk loads into KwelaDB over Arrow Flight SQL (graphio/kweladb.py)
-kweladb = [
-    "adbc-driver-flightsql>=1.12",
-    "pyarrow>=24",
-]
 docs = [
     "mkdocs",
     "mkdocs-material",
